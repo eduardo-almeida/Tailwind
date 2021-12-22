@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Layout</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <div class="grid bg-red-400 grid-cols-3">
+    <div class="bg-blue-400 m-2">1</div>
+    <div class="bg-green-400 m-2">2</div>
+    <div class="bg-yellow-400 m-2">3</div>
+    <div class="bg-pink-400 m-2">4</div>
+    <div class="bg-blue-400 m-2">1</div>
+    <div class="bg-green-400 m-2">2</div>
+    <div class="bg-yellow-400 m-2">3</div>
+    <div class="bg-pink-400 m-2">4</div>
+  </div>
+
+  <div class="grid bg-yellow-400 grid-cols-6">
+    <div class="col-span-1">
+      <li>Home</li>
+      <li>Produtos</li>
+      <li>Contatos</li>
+      <li>Blog</li>
+    </div>
+    <div class="col-span-5 bg-blue-400">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sequi nemo voluptate adipisci eos provident quisquam totam! Esse nisi, consequatur aspernatur nulla quibusdam aliquid itaque quas nihil beatae et adipisci.
+      Corporis, illum maiores, ratione laborum non debitis consequuntur rem expedita, ipsam veritatis doloremque nobis natus magnam error praesentium sunt distinctio dicta incidunt veniam esse voluptate dolore dolores sit recusandae! Placeat.
+      Dolorum recusandae minima adipisci itaque dolore alias blanditiis tempora. Accusamus aliquid omnis magni labore? Dolore voluptatem culpa nostrum, nulla aut fuga sunt recusandae. Commodi accusantium autem fuga omnis, minima ullam?
+      Impedit ratione ullam ex eius id pariatur!
+    </div>
+  </div>
+
+  <div class="grid grid-cols-4 m-2">
+    <div class="col-span-4 bg-red-900">
+      <p>Barra de Navegação</p>
+    </div>
+    <div class="col-span-1 bg-red-700">
+      <p>Barra Lateral esquerda</p>
+    </div>
+    <div class="col-span-2 bg-red-400">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum totam aut veniam quo, in cupiditate aliquid nisi cumque fuga, vero minima voluptas ad repellat veritatis architecto alias laudantium quidem explicabo.</p>
+    </div>
+    <div class="col-span-1 bg-red-700">
+      <p>Barra Lateral direita</p>
+    </div>
+  </div>
+
+  <div class="grid bg-red-400 grid-rows-3 grid-flow-col">
+    <div class="bg-blue-400 m-2 -order-2">1</div>
+    <div class="bg-green-400 m-2">2</div>
+    <div class="bg-yellow-400 m-2">3</div>
+    <div class="bg-pink-400 m-2 order-1">4</div>
+    <div class="bg-blue-400 m-2 -order-2">1a</div>
+    <div class="bg-green-400 m-2 -order-1">2a</div>
+    <div class="bg-yellow-400 m-2">3a</div>
+    <div class="bg-pink-400 m-2">4a</div>
+  </div>
+
+  <div class="grid bg-red-400 grid-cols-3 gap-2">
+    <div class="bg-blue-400  -order-2">1</div>
+    <div class="bg-green-400 ">2</div>
+    <div class="bg-yellow-400 ">3</div>
+    <div class="bg-pink-400  order-1">4</div>
+    <div class="bg-blue-400  -order-2">1a</div>
+    <div class="bg-green-400  -order-1">2a</div>
+    <div class="bg-yellow-400 ">3a</div>
+    <div class="bg-pink-400 ">4a</div>
+  </div>
+
+</body>
+</html>
