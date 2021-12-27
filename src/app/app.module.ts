@@ -6,12 +6,14 @@ import { SpotifyComponent } from './spotify/spotify.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
+import { ExerciciosComponent } from './exercicios/exercicios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SpotifyComponent,
-    HomeComponent
+    HomeComponent,
+    ExerciciosComponent
   ],
   imports: [
     BrowserModule,
