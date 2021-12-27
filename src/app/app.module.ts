@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { ExerciciosComponent } from './exercicios/exercicios.component';
+import { GeiselComponent } from './geisel/geisel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SpotifyComponent,
     HomeComponent,
-    ExerciciosComponent
+    ExerciciosComponent,
+    GeiselComponent
   ],
   imports: [
     BrowserModule,
