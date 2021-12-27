@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { ExerciciosComponent } from './exercicios/exercicios.component';
 import { GeiselComponent } from './geisel/geisel.component';
+import { FacebookComponent } from './facebook/facebook.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { GeiselComponent } from './geisel/geisel.component';
     SpotifyComponent,
     HomeComponent,
     ExerciciosComponent,
-    GeiselComponent
+    GeiselComponent,
+    FacebookComponent
   ],
   imports: [
     BrowserModule,
