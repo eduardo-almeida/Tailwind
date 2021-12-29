@@ -9,6 +9,7 @@ import { ROUTES } from './app.routes';
 import { ExerciciosComponent } from './exercicios/exercicios.component';
 import { GeiselComponent } from './geisel/geisel.component';
 import { FacebookComponent } from './facebook/facebook.component';
+import { AmazonComponent } from './amazon/amazon.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FacebookComponent } from './facebook/facebook.component';
     HomeComponent,
     ExerciciosComponent,
     GeiselComponent,
-    FacebookComponent
+    FacebookComponent,
+    AmazonComponent
   ],
   imports: [
     BrowserModule,
