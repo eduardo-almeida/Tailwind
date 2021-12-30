@@ -43,4 +43,19 @@
     @apply text-orange-650 border-orange-650;
   }
 
+  .texto-link {
+    @apply text-blue-600 underline hover:text-orange-650 px-1 border-r border-black;
+  }
+
+  .btn-amazon-prime {
+    @apply text-sm bg-yellow-350 border border-yellow-700 rounded px-3 py-3
+     h-12 items-center w-full text-center
+  }
+
+  @screen md {
+    .btn-amazon-prime {
+      @apply text-xs py-0 ml-10 h-8 flex w-auto
+    }
+  }
+
 }
