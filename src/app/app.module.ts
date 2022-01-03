@@ -10,6 +10,7 @@ import { ExerciciosComponent } from './exercicios/exercicios.component';
 import { GeiselComponent } from './geisel/geisel.component';
 import { FacebookComponent } from './facebook/facebook.component';
 import { AmazonComponent } from './amazon/amazon.component';
+import { NovidadesComponent } from './novidades/novidades.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AmazonComponent } from './amazon/amazon.component';
     ExerciciosComponent,
     GeiselComponent,
     FacebookComponent,
-    AmazonComponent
+    AmazonComponent,
+    NovidadesComponent
   ],
   imports: [
     BrowserModule,
