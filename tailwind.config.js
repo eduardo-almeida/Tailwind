@@ -1,3 +1,5 @@
+const color = require('tailwindcss/colors')
+
 module.exports = {
   prefix: '',
   purge: {
@@ -21,6 +23,8 @@ module.exports = {
         '980px': '980px'
       },
       colors: {
+        amber: color.amber,
+        rose: color.rose,
         'hoverspt': '#18D760',
         'purple-main': '#2D46B9',
         'green-main': '#1ED760',
